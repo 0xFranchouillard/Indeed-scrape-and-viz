@@ -32,6 +32,7 @@ def extract_data_from_result(soup):
 
 
 def extract_data_from_jobs_pages(job, div):
+    job['jobLink'] = div['data-jk']
     for jobName in div.find_all(name='a', attrs={'data-tn-element': 'jobTitle'}):
         job['jobName'] = (jobName['title'])
 
@@ -98,10 +99,6 @@ if __name__ == '__main__':
                 #columns = ['jobsNames', 'companiesNames', 'citiesNames', 'jobsShortDescriptions']
 
                 with open('data.json', 'w') as fp:
-                    json.dump(data, fp, sort_keys=True, indent=2, ensure_ascii=True)
-
-                df = pd.read_json('data.json')
-                df.to_csv('data.csv')
+                    json.dump(data, fp, sort_keys=True, indent=2, ensure_ascii=False)
 
                 import_to_mongo(data)
-

@@ -1,92 +1,107 @@
 [
   {
-    "cityName": "Lyon 2e (69)",
-    "companyName": "Syst\u00e8me U",
-    "jobName": "CONSEILLER VENDEUR BAZAR H/F",
-    "jobShortDescription": "Vous aimez interagir avec vos clients et leur apporter des solutions."
+    "cityName": "Bron (69)",
+    "companyName": "Decathlon",
+    "jobLink": "f08cb11a022e90d5",
+    "jobName": "Vendeur-se / Hôte-sse (H/F) - TEMPS PARTIEL Glisse Sur Asphalte",
+    "jobShortDescription": "Tu travailles main dans la main avec le Responsable de Rayon qui te manage et tu bénéficies d’un plan de formation pour t’accompagner dans la réussite de l…"
   },
   {
     "cityName": "Lyon (69)",
     "companyName": "JD Sports",
+    "jobLink": "e1707f56aa0018c8",
     "jobName": "Vendeur Magasin CDI 35H - H/F",
     "jobShortDescription": "En magasin, tu participes au merchandising et au rangement."
   },
   {
-    "cityName": "Auvergne-Rh\u00f4ne-Alpes",
+    "cityName": "Lyon 2e (69)",
+    "companyName": "Système U",
+    "jobLink": "4a10ae376c13dc74",
+    "jobName": "CONSEILLER VENDEUR BAZAR H/F",
+    "jobShortDescription": "Vous aimez interagir avec vos clients et leur apporter des solutions."
+  },
+  {
+    "cityName": "Auvergne-Rhône-Alpes",
     "companyName": "Decathlon",
+    "jobLink": "43b4acdfa85cc7ba",
     "jobName": "Vendeur-se / Technicien-ne (H/F)",
-    "jobShortDescription": "Ta mission te permet de partager ta passion du sportAu sein d\u2019un rayon du magasin, tu conseilles tes clients sportifs dans leurs choix et tu r\u00e9ponds \u00e0 leurs\u2026"
-  },
-  {
-    "cityName": "Villeurbanne (69)",
-    "companyName": "Naturalia",
-    "jobName": "Vendeur(se)",
-    "jobShortDescription": "Une envie de partager sa bonne humeur avec son \u00e9quipe;\nGarantir une exp\u00e9rience client optimale de l\u2019accueil jusqu\u2019\u00e0 l\u2019encaissement."
-  },
-  {
-    "cityName": "Bron (69)",
-    "companyName": "Decathlon",
-    "jobName": "Vendeur-se / H\u00f4te-sse (H/F) Cycle",
-    "jobShortDescription": "Tu travailles main dans la main avec le Responsable de Rayon qui te manage et tu b\u00e9n\u00e9ficies d\u2019un plan de formation pour t\u2019accompagner dans la r\u00e9ussite de l\u2026"
-  },
-  {
-    "cityName": "V\u00e9nissieux (69)",
-    "companyName": "IKEA",
-    "jobName": "Vendeurs F/H - CDI - Temps plein",
-    "jobShortDescription": "Tu abordes avec respect les visiteurs pour en savoir plus sur leurs besoins et les guider dans leur choix gr\u00e2ce \u00e0 ta connaissance approfondie de nos produits et\u2026"
-  },
-  {
-    "cityName": "Lyon (69)",
-    "companyName": "Gap",
-    "jobName": "Vendeur H/F \u2013 CDD 16h \u2013 Lyon",
-    "jobShortDescription": "Vous \u00eates curieux et motiv\u00e9 ce qui vous permet d\u2019en savoir toujours plus sur votre m\u00e9tier et sur la vie de votre magasin.\nContrat CDD du 20/12/20 au 23/01/21."
-  },
-  {
-    "cityName": "Lyon (69)",
-    "companyName": "Adventure Group",
-    "jobName": "Vendeur en Boulangerie H/F",
-    "jobShortDescription": "Satisfaire le client au comptoir ou en salle en l\u2019accueillant et en le servant avec le sourire,.\nDynamisme, excellent relationnel, r\u00e9activit\u00e9, esprit d\u2019\u00e9quipe\u2026"
-  },
-  {
-    "cityName": "Villeurbanne (69)",
-    "companyName": "Monoprix",
-    "jobName": "Vendeur(se)",
-    "jobShortDescription": "Une envie de partager sa bonne humeur avec son \u00e9quipe;\nGarantir une exp\u00e9rience client optimale de l\u2019accueil jusqu\u2019\u00e0 l\u2019encaissement."
-  },
-  {
-    "cityName": "Villeurbanne (69)",
-    "companyName": "Saint-Gobain",
-    "jobName": "Vendeur Conseil (H/F) - Villeurbanne (69)",
-    "jobShortDescription": "Un acc\u00e8s aux avantages du Groupe Saint-Gobain (Plan Epargne Groupe, accords d'int\u00e9ressement et participation) ainsi qu'\u00e0 des remises commerciales sur nos\u2026"
+    "jobShortDescription": "Ta mission te permet de partager ta passion du sportAu sein d’un rayon du magasin, tu conseilles tes clients sportifs dans leurs choix et tu réponds à leurs…"
   },
   {
     "cityName": "Lyon (69)",
     "companyName": "ETAM",
-    "jobName": "h\u00f4te(sse) de vente h/f",
-    "jobShortDescription": "Accueillir et conseiller la client\u00e8le en garantissant l'image de la marque gr\u00e2ce \u00e0 un service client de qualit\u00e9, une expertise produits et des actions de\u2026"
+    "jobLink": "b4e288ae9bdd44bd",
+    "jobName": "hôte(sse) de vente h/f",
+    "jobShortDescription": "Accueillir et conseiller la clientèle en garantissant l'image de la marque grâce à un service client de qualité, une expertise produits et des actions de…"
+  },
+  {
+    "cityName": "Lyon (69)",
+    "companyName": "Gap",
+    "jobLink": "2c02dc7af3947bb0",
+    "jobName": "Vendeur H/F – CDD 16h – Lyon",
+    "jobShortDescription": "Vous êtes curieux et motivé ce qui vous permet d’en savoir toujours plus sur votre métier et sur la vie de votre magasin.\nContrat CDD du 20/12/20 au 23/01/21."
+  },
+  {
+    "cityName": "Vénissieux (69)",
+    "companyName": "IKEA",
+    "jobLink": "1b7cbe0ac9fe7eee",
+    "jobName": "Vendeurs F/H - CDI - Temps plein",
+    "jobShortDescription": "Tu abordes avec respect les visiteurs pour en savoir plus sur leurs besoins et les guider dans leur choix grâce à ta connaissance approfondie de nos produits et…"
+  },
+  {
+    "cityName": "Villeurbanne (69)",
+    "companyName": "Naturalia",
+    "jobLink": "a3ab10bdc42bcb58",
+    "jobName": "Vendeur(se)",
+    "jobShortDescription": "Une envie de partager sa bonne humeur avec son équipe;\nGarantir une expérience client optimale de l’accueil jusqu’à l’encaissement."
+  },
+  {
+    "cityName": "Lyon 2e (69)",
+    "companyName": "Le Comptoir de Mathilde",
+    "jobLink": "5dffb2f989660492",
+    "jobName": "Vendeur/se Boutique",
+    "jobShortDescription": "Réassort, mise en place des vitrines et du merchandising.\nAccueil des clients et identification des besoins."
+  },
+  {
+    "cityName": "Lyon (69)",
+    "companyName": "New Yorker",
+    "jobLink": "6edc8857921a242b",
+    "jobName": "Vendeur (h/f) temps partiel",
+    "jobShortDescription": "Esprit d'équipe et excellente communication.\nExécution et travail en caisse."
+  },
+  {
+    "cityName": "Lyon (69)",
+    "companyName": "Adventure Group",
+    "jobLink": "03352b7c6382507c",
+    "jobName": "Vendeur en Boulangerie H/F",
+    "jobShortDescription": "Satisfaire le client au comptoir ou en salle en l’accueillant et en le servant avec le sourire,.\nDynamisme, excellent relationnel, réactivité, esprit d’équipe…"
+  },
+  {
+    "cityName": "Bron (69)",
+    "companyName": "Decathlon",
+    "jobLink": "c52d2c4d3f2435f3",
+    "jobName": "Vendeur-se / Hôte-sse (H/F) Cycle",
+    "jobShortDescription": "Tu travailles main dans la main avec le Responsable de Rayon qui te manage et tu bénéficies d’un plan de formation pour t’accompagner dans la réussite de l…"
   },
   {
     "cityName": "Lyon (69)",
     "companyName": "Christine Laure",
+    "jobLink": "396791232f043f52",
     "jobName": "Vendeur (H/F)",
-    "jobShortDescription": "Christine LAURE recrute pour sa boutique de LYON (69) un\u00b7e Conseiller\u00b7\u00e8re de vente en CDD \u00e0 35H hebdomadaires."
+    "jobShortDescription": "Christine LAURE recrute pour sa boutique de LYON (69) un·e Conseiller·ère de vente en CDD à 35H hebdomadaires."
   },
   {
-    "cityName": "Pierre-B\u00e9nite (69)",
+    "cityName": "Vaulx-en-Velin (69)",
+    "companyName": "Go Sport",
+    "jobLink": "5f90ca057cced62c",
+    "jobName": "Vendeur(se) H/F",
+    "jobShortDescription": "Disponible, dynamique et souriant(e), vous créez une véritable relation avec le client."
+  },
+  {
+    "cityName": "Pierre-Bénite (69)",
     "companyName": "Botanic",
+    "jobLink": "1eb9c7bc48ad4510",
     "jobName": "VENDEUR QUALIFIE H/F - ANIMALERIE",
-    "jobShortDescription": "Accueil, \u00e9coute et conseil des clients pour d\u00e9velopper les ventes et les services du magasin.\nPrise en charge des services clients en magasin du type aide au\u2026"
-  },
-  {
-    "cityName": "Lyon (69)",
-    "companyName": "Claudie Pierlot",
-    "jobName": "Vendeur(se)",
-    "jobShortDescription": "Int\u00e9grez la Team Claudie et Vivez des challenges \u00e0 la hauteur de votre talent ! En tant que Vendeur vous serez un v\u00e9ritable ambassadeur et vous incarnerez\u2026"
-  },
-  {
-    "cityName": "Tassin-la-Demi-Lune (69)",
-    "companyName": "Leroy Merlin",
-    "jobName": "Vendeur magasin menuiserie Lyon (Tassin)",
-    "jobShortDescription": "Vous mettez les produits en valeur \u00e0 travers des pr\u00e9sentations et des mises en situations,.\nEn apprenant \u00e0 conna\u00eetre vos clients, leurs enjeux, et leurs\u2026"
+    "jobShortDescription": "Accueil, écoute et conseil des clients pour développer les ventes et les services du magasin.\nPrise en charge des services clients en magasin du type aide au…"
   }
 ]
