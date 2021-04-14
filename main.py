@@ -33,17 +33,22 @@ def extract_data_from_result(soup):
 
 def extract_data_from_jobs_pages(job, div):
     job['jobLink'] = div['data-jk']
+
+    for jobRating in div.findAll(name='span', attrs={'class':'ratingsContent'}):
+        job['rating'] = jobRating.text.strip()
+
     for jobName in div.find_all(name='a', attrs={'data-tn-element': 'jobTitle'}):
-        job['jobName'] = (jobName['title'])
+        job['jobName'] = jobName['title']
 
     for companyName in div.find_all(name='span', attrs={'class': 'company'}):
-        job['companyName'] = (companyName.text.strip())
+        job['companyName'] = companyName.text.strip()
 
     for cityName in div.findAll(name='span', attrs={'class': 'location accessible-contrast-color-location'}):
-        job['cityName'] = (cityName.text.strip())
+        job['cityName'] = cityName.text.strip()
 
     for jobShortDescription in div.findAll('div', attrs={'class': 'summary'}):
-        job['jobShortDescription'] = (jobShortDescription.text.strip())
+        job['jobShortDescription'] = jobShortDescription.text.strip()
+
     return job
 
 
@@ -84,7 +89,7 @@ if __name__ == '__main__':
 
     #cities = ['Paris','Lyon','Bordeaux','Asnières sur Seine']
     #jobs_list = ['Data Analyst','Data Scientist','Data engineer','ML engineer']
-    cities = ['Lyon']
+    cities = ['Marseille']
     jobs_list = ['Vendeur']
     number_pages_to_scrape = 1
 
@@ -94,9 +99,7 @@ if __name__ == '__main__':
             job = '+'.join(job.split(' '))
             for i in range(0, number_pages_to_scrape):
                 soup = make_soup(URL + job + "&l=" + city + "&start=" + str(i * 10))
-                # extract_data_from_result(soup)
                 data = get_jobs_pages_from_result(jobs=[], soup = soup)
-                #columns = ['jobsNames', 'companiesNames', 'citiesNames', 'jobsShortDescriptions']
 
                 with open('data.json', 'w') as fp:
                     json.dump(data, fp, sort_keys=True, indent=2, ensure_ascii=False)
