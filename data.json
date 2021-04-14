@@ -1,122 +1,20 @@
 [
   {
-    "cityName": "Marseille (13)",
-    "companyName": "Leroy Merlin",
-    "jobLink": "c8be845a6253f652",
-    "jobName": "Vendeur magasin - Marseille Grand Littoral H/F",
-    "jobShortDescription": "Vous mettez les produits en valeur à travers des présentations et des mises en situations,.\nEn apprenant à connaître vos clients, leurs enjeux, et leurs…",
-    "rating": "4,0"
+    "cityName": "Saint-Paul-Trois-Châteaux (26)",
+    "companyName": "Lactalis",
+    "jobDataFromLink": "{\"jobType\": \"CDI\"}",
+    "jobLink": "71ddd02e5e59d7a5",
+    "jobName": "Agent Nettoyage Industriel / Hygiéniste(H/F) Saint-Paul-Trois-Chateaux",
+    "jobShortDescription": "Vous êtes idéalement doté d’une première expérience en nettoyage industriel.\nRespectez le plan journalier de nettoyage et veillez à la bonne disponibilité de…",
+    "rating": "3,5"
   },
   {
-    "cityName": "Marseille (13)",
-    "companyName": "JD Sports",
-    "jobLink": "8c566dce620341b8",
-    "jobName": "Vendeur Magasin CDI 35H - H/F",
-    "jobShortDescription": "En magasin, tu participes au merchandising et au rangement.",
-    "rating": "3,2"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "Monoprix",
-    "jobLink": "2e15a0f139fd588c",
-    "jobName": "Vendeur(se)",
-    "jobShortDescription": "Responsable régionale depuis 2017, j’ai en charge 22 magasins en région Méditerranée.\nUne envie de partager sa bonne humeur avec son équipe;",
-    "rating": "3,6"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "Naturalia",
-    "jobLink": "3bb38a3a684b8572",
-    "jobName": "Vendeur(se)",
-    "jobShortDescription": "Une envie de partager sa bonne humeur avec son équipe;\nGarantir une expérience client optimale de l’accueil jusqu’à l’encaissement.",
-    "rating": "2,8"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "JD Sports",
-    "jobLink": "12dafd044a50896e",
-    "jobName": "Vendeur CDD 24 H - H/F",
-    "jobShortDescription": "En magasin, tu participes au merchandising et au rangement.\nLe candidat doit être flexible de 6 h à 21 h 30.",
-    "rating": "3,2"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "MAXI ZOO",
-    "jobLink": "5e1642e94119372b",
-    "jobName": "VENDEUR CAPACITAIRE CDI 35H00 (H/F)",
-    "jobShortDescription": "L’approvisionnement des rayons, les gestion des commandes.\nVous vous positionnez en spécialiste reconnu auprès de nos clients.",
-    "rating": "3,3"
-  },
-  {
-    "cityName": "Vitrolles (13)",
-    "companyName": "IKEA",
-    "jobLink": "276d7d3505e83a54",
-    "jobName": "Vendeur F/H - CDD - Temps plein",
-    "jobShortDescription": "Tu abordes avec respect les visiteurs pour en savoir plus sur leurs besoins et les guider dans leur choix grâce à ta connaissance approfondie de nos produits et…",
-    "rating": "3,9"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "Brico depôt",
-    "jobLink": "c0d30af2b21f82ef",
-    "jobName": "Vendeur(se) H/F 14H/ SEM",
-    "jobShortDescription": "Votre connaissance et votre intérêt pour les produits de bricolage vous permettent d’accompagner nos clients en fonction de leurs besoins.",
-    "rating": "3,6"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "Claudie Pierlot",
-    "jobLink": "487dbd15f9c70286",
-    "jobName": "Vendeur(se)",
-    "jobShortDescription": "Intégrez la Team Claudie et Vivez des challenges à la hauteur de votre talent ! En tant que Vendeur vous serez un véritable ambassadeur et vous incarnerez…",
-    "rating": "3,6"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "JD Sports",
-    "jobLink": "419236a80a18c97f",
-    "jobName": "Vendeur - H/F",
-    "jobShortDescription": "En magasin, tu participes au merchandising et au rangement.",
-    "rating": "3,2"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "Monoprix",
-    "jobLink": "c62d0183664a34a7",
-    "jobName": "Vendeur(se) - Spécialiste du matin",
-    "jobShortDescription": "Une envie de partager sa bonne humeur avec son équipe ;\nGarantir une expérience client optimale de l’accueil jusqu’à l’encaissement.",
-    "rating": "3,6"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "Brico depôt",
-    "jobLink": "0c6c62e6576272d8",
-    "jobName": "Vendeur(se) H/F",
-    "jobShortDescription": "Votre connaissance et votre intérêt pour les produits de bricolage vous permettent d’accompagner nos clients en fonction de leurs besoins.",
-    "rating": "3,6"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "Assurances SFAM",
-    "jobLink": "039544554f17eff2",
-    "jobName": "Vendeur en boutiques de téléphonie / multimédia à Marseille H/F",
-    "jobShortDescription": "Accueillir, accompagner et conseiller le client sur les produits et services les mieux adaptés à ses besoins.",
-    "rating": "3,2"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "Cultura",
-    "jobLink": "abe1f648fe2e2ea7",
-    "jobName": "Conseiller de Vente Logistique h/f",
-    "jobShortDescription": "« Si comme nous, vous pensez que chaque chose a une place, et qu’il existe une place pour chaque chose alors… nous avons un point en commun ! » Vous aimez les…",
-    "rating": "3,3"
-  },
-  {
-    "cityName": "Marseille (13)",
-    "companyName": "La Redoute",
-    "jobLink": "2a4ee896977cf4c3",
-    "jobName": "Conseiller de vente H/F",
-    "jobShortDescription": "Vous respectez le merchandising dans les codes de la marque.\nVous êtes acteur du développement commercial de votre point de vente en assurant une qualité d…",
-    "rating": "3,7"
+    "cityName": "Saint-Paul-Trois-Châteaux (26)",
+    "companyName": "Lactalis",
+    "jobDataFromLink": "{\"jobType\": \"CDI\"}",
+    "jobLink": "04e0f766c4e5c67c",
+    "jobName": "Chef d'Equipe Nettoyage Industriel (H/F) Saint-Paul-Trois-Chateaux",
+    "jobShortDescription": "Sur ce site d'environ 40 personnes, vous êtes rattaché au Responsable Production/Maintenance et intégrez une équipe de 3 personnes (vous, en tant que chef d…",
+    "rating": "3,5"
   }
 ]
