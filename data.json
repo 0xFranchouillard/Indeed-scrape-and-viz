@@ -1,62 +1,92 @@
 [
   {
-    "citiesNames": "Lyon (69)",
-    "companiesNames": "FIDUCIAL",
-    "jobsNames": "Data Analyst H/F",
-    "jobsShortDescriptions": "De formation bac+4, bac+5 en informatique, management, statistique ou en marketing avec un module data scientist / data analyst, vous disposez d'au moins 4 ans…"
+    "cityName": "Lyon 2e (69)",
+    "companyName": "Syst\u00e8me U",
+    "jobName": "CONSEILLER VENDEUR BAZAR H/F",
+    "jobShortDescription": "Vous aimez interagir avec vos clients et leur apporter des solutions."
   },
   {
-    "citiesNames": "Lyon (69)",
-    "companiesNames": "Intitek",
-    "jobsNames": "Data analyst (H/F)",
-    "jobsShortDescriptions": "Intégré(e) au sein d’une équipe de Data analystes de note client, nous recherchons un(e) Data analyst pour une nouvelle étude."
+    "cityName": "Lyon (69)",
+    "companyName": "JD Sports",
+    "jobName": "Vendeur Magasin CDI 35H - H/F",
+    "jobShortDescription": "En magasin, tu participes au merchandising et au rangement."
   },
   {
-    "citiesNames": "Saint-Priest (69)",
-    "companiesNames": "iziwork",
-    "jobsNames": "Data Analyst H/F",
-    "jobsShortDescriptions": "Iziwork recherche pour son client basé à Saint-Priest (69800) un(e) data analyst h/f.\n6 mois d'expérience minimum requis pour le poste."
+    "cityName": "Auvergne-Rh\u00f4ne-Alpes",
+    "companyName": "Decathlon",
+    "jobName": "Vendeur-se / Technicien-ne (H/F)",
+    "jobShortDescription": "Ta mission te permet de partager ta passion du sportAu sein d\u2019un rayon du magasin, tu conseilles tes clients sportifs dans leurs choix et tu r\u00e9ponds \u00e0 leurs\u2026"
   },
   {
-    "citiesNames": "Saint-Priest (69)",
-    "companiesNames": "TOOLSTATION",
-    "jobsNames": "Data Analyste H/F",
-    "jobsShortDescriptions": "Nous recherchons aujourd’hui un Data Analyste (H/F) pour notre siège situé Saint-Priest (69).\nEn tant que spécialiste base de données marketing, vous savez…"
+    "cityName": "Villeurbanne (69)",
+    "companyName": "Naturalia",
+    "jobName": "Vendeur(se)",
+    "jobShortDescription": "Une envie de partager sa bonne humeur avec son \u00e9quipe;\nGarantir une exp\u00e9rience client optimale de l\u2019accueil jusqu\u2019\u00e0 l\u2019encaissement."
   },
   {
-    "citiesNames": "Lyon (69)",
-    "companiesNames": "Licorne Society",
-    "jobsNames": "Data Analyst dans une startup",
-    "jobsShortDescriptions": "1 - Remplis ton profil et tes attentes.\nLe concept est simple, on envoie les plus beaux profils de Customer Success Managers à nos startups préférées (pour ne…"
+    "cityName": "Bron (69)",
+    "companyName": "Decathlon",
+    "jobName": "Vendeur-se / H\u00f4te-sse (H/F) Cycle",
+    "jobShortDescription": "Tu travailles main dans la main avec le Responsable de Rayon qui te manage et tu b\u00e9n\u00e9ficies d\u2019un plan de formation pour t\u2019accompagner dans la r\u00e9ussite de l\u2026"
   },
   {
-    "citiesNames": "Lyon 9e (69)",
-    "companiesNames": "Adthink",
-    "jobsNames": "OFFRE D’EMPLOI : MEDIA TRADER et DATA ANALYST F/H",
-    "jobsShortDescriptions": "Afin de compléter notre trading desk, nous recherchons un(e) Media Trader et Data Analyst.\nLa création des campagnes publicitaires digitales RTB de nos clients…"
+    "cityName": "V\u00e9nissieux (69)",
+    "companyName": "IKEA",
+    "jobName": "Vendeurs F/H - CDI - Temps plein",
+    "jobShortDescription": "Tu abordes avec respect les visiteurs pour en savoir plus sur leurs besoins et les guider dans leur choix gr\u00e2ce \u00e0 ta connaissance approfondie de nos produits et\u2026"
   },
   {
-    "citiesNames": "Lyon (69)",
-    "companiesNames": "Handicap International",
-    "jobsNames": "Data Analyst H/F",
-    "jobsShortDescriptions": "Au sein du service Datamanagement, vous assurez l’exploitation de données sur l’ensemble des projets liés à l’activité Marketing Opérationnel."
+    "cityName": "Lyon (69)",
+    "companyName": "Gap",
+    "jobName": "Vendeur H/F \u2013 CDD 16h \u2013 Lyon",
+    "jobShortDescription": "Vous \u00eates curieux et motiv\u00e9 ce qui vous permet d\u2019en savoir toujours plus sur votre m\u00e9tier et sur la vie de votre magasin.\nContrat CDD du 20/12/20 au 23/01/21."
   },
   {
-    "citiesNames": "Lyon (69)",
-    "companiesNames": "Notre offre ProPulse by PULSALYS",
-    "jobsNames": "Analyste de données linguistiques sur projets clients F/H",
-    "jobsShortDescriptions": "Skilder est une start-up qui s’intéresse à l’identification des softs skills, c’est-à-dire des compétences relationnelles et comportementales à travers des jeux…"
+    "cityName": "Lyon (69)",
+    "companyName": "Adventure Group",
+    "jobName": "Vendeur en Boulangerie H/F",
+    "jobShortDescription": "Satisfaire le client au comptoir ou en salle en l\u2019accueillant et en le servant avec le sourire,.\nDynamisme, excellent relationnel, r\u00e9activit\u00e9, esprit d\u2019\u00e9quipe\u2026"
   },
   {
-    "citiesNames": "Lyon (69)",
-    "companiesNames": "MANPOWER FRANCE",
-    "jobsNames": "Analyste informatique SAP MASTER DATA H/F",
-    "jobsShortDescriptions": "Manpower CABINET DE RECRUTEMENT LYON SPECIALISE recherche pour son client, un acteur du secteur de la métallurgie et de la transformation des matériaux, u*n…"
+    "cityName": "Villeurbanne (69)",
+    "companyName": "Monoprix",
+    "jobName": "Vendeur(se)",
+    "jobShortDescription": "Une envie de partager sa bonne humeur avec son \u00e9quipe;\nGarantir une exp\u00e9rience client optimale de l\u2019accueil jusqu\u2019\u00e0 l\u2019encaissement."
   },
   {
-    "citiesNames": "Lyon 7e (69)",
-    "companiesNames": "Manpower",
-    "jobsNames": "Analyste assistant de données IT (H/F)",
-    "jobsShortDescriptions": "Validation des formats et s’assurer du chargement sur le nouveau format avec les bonnes formules et mise en forme."
+    "cityName": "Villeurbanne (69)",
+    "companyName": "Saint-Gobain",
+    "jobName": "Vendeur Conseil (H/F) - Villeurbanne (69)",
+    "jobShortDescription": "Un acc\u00e8s aux avantages du Groupe Saint-Gobain (Plan Epargne Groupe, accords d'int\u00e9ressement et participation) ainsi qu'\u00e0 des remises commerciales sur nos\u2026"
+  },
+  {
+    "cityName": "Lyon (69)",
+    "companyName": "ETAM",
+    "jobName": "h\u00f4te(sse) de vente h/f",
+    "jobShortDescription": "Accueillir et conseiller la client\u00e8le en garantissant l'image de la marque gr\u00e2ce \u00e0 un service client de qualit\u00e9, une expertise produits et des actions de\u2026"
+  },
+  {
+    "cityName": "Lyon (69)",
+    "companyName": "Christine Laure",
+    "jobName": "Vendeur (H/F)",
+    "jobShortDescription": "Christine LAURE recrute pour sa boutique de LYON (69) un\u00b7e Conseiller\u00b7\u00e8re de vente en CDD \u00e0 35H hebdomadaires."
+  },
+  {
+    "cityName": "Pierre-B\u00e9nite (69)",
+    "companyName": "Botanic",
+    "jobName": "VENDEUR QUALIFIE H/F - ANIMALERIE",
+    "jobShortDescription": "Accueil, \u00e9coute et conseil des clients pour d\u00e9velopper les ventes et les services du magasin.\nPrise en charge des services clients en magasin du type aide au\u2026"
+  },
+  {
+    "cityName": "Lyon (69)",
+    "companyName": "Claudie Pierlot",
+    "jobName": "Vendeur(se)",
+    "jobShortDescription": "Int\u00e9grez la Team Claudie et Vivez des challenges \u00e0 la hauteur de votre talent ! En tant que Vendeur vous serez un v\u00e9ritable ambassadeur et vous incarnerez\u2026"
+  },
+  {
+    "cityName": "Tassin-la-Demi-Lune (69)",
+    "companyName": "Leroy Merlin",
+    "jobName": "Vendeur magasin menuiserie Lyon (Tassin)",
+    "jobShortDescription": "Vous mettez les produits en valeur \u00e0 travers des pr\u00e9sentations et des mises en situations,.\nEn apprenant \u00e0 conna\u00eetre vos clients, leurs enjeux, et leurs\u2026"
   }
 ]

@@ -1,15 +1,22 @@
-,citiesNames,companiesNames,jobsNames,jobsShortDescriptions
-0,Lyon (69),FIDUCIAL,Data Analyst H/F,"De formation bac+4, bac+5 en informatique, management, statistique ou en marketing avec un module data scientist / data analyst, vous disposez d'au moins 4 ans�"
-1,Lyon (69),Intitek,Data analyst (H/F),"Int�gr�(e) au sein d�une �quipe de Data analystes de note client, nous recherchons un(e) Data analyst pour une nouvelle �tude."
-2,Saint-Priest (69),iziwork,Data Analyst H/F,"Iziwork recherche pour son client bas� � Saint-Priest (69800) un(e) data analyst h/f.
-6 mois d'exp�rience minimum requis pour le poste."
-3,Saint-Priest (69),TOOLSTATION,Data Analyste H/F,"Nous recherchons aujourd�hui un Data Analyste (H/F) pour notre si�ge situ� Saint-Priest (69).
-En tant que sp�cialiste base de donn�es marketing, vous savez�"
-4,Lyon (69),Licorne Society,Data Analyst dans une startup,"1 - Remplis ton profil et tes attentes.
-Le concept est simple, on envoie les plus beaux profils de Customer Success Managers � nos startups pr�f�r�es (pour ne�"
-5,Lyon 9e (69),Adthink,OFFRE D�EMPLOI : MEDIA TRADER et DATA ANALYST F/H,"Afin de compl�ter notre trading desk, nous recherchons un(e) Media Trader et Data Analyst.
-La cr�ation des campagnes publicitaires digitales RTB de nos clients�"
-6,Lyon (69),Handicap International,Data Analyst H/F,"Au sein du service Datamanagement, vous assurez l�exploitation de donn�es sur l�ensemble des projets li�s � l�activit� Marketing Op�rationnel."
-7,Lyon (69),Notre offre ProPulse by PULSALYS,Analyste de donn�es linguistiques sur projets clients F/H,"Skilder est une start-up qui s�int�resse � l�identification des softs skills, c�est-�-dire des comp�tences relationnelles et comportementales � travers des jeux�"
-8,Lyon (69),MANPOWER FRANCE,Analyste informatique SAP MASTER DATA H/F,"Manpower CABINET DE RECRUTEMENT LYON SPECIALISE recherche pour son client, un acteur du secteur de la m�tallurgie et de la transformation des mat�riaux, u*n�"
-9,Lyon 7e (69),Manpower,Analyste assistant de donn�es IT (H/F),Validation des formats et s�assurer du chargement sur le nouveau format avec les bonnes formules et mise en forme.
+,cityName,companyName,jobName,jobShortDescription
+0,Lyon 2e (69),Système U,CONSEILLER VENDEUR BAZAR H/F,Vous aimez interagir avec vos clients et leur apporter des solutions.
+1,Lyon (69),JD Sports,Vendeur Magasin CDI 35H - H/F,"En magasin, tu participes au merchandising et au rangement."
+2,Auvergne-Rhône-Alpes,Decathlon,Vendeur-se / Technicien-ne (H/F),"Ta mission te permet de partager ta passion du sportAu sein d’un rayon du magasin, tu conseilles tes clients sportifs dans leurs choix et tu réponds à leurs…"
+3,Villeurbanne (69),Naturalia,Vendeur(se),"Une envie de partager sa bonne humeur avec son équipe;
+Garantir une expérience client optimale de l’accueil jusqu’à l’encaissement."
+4,Bron (69),Decathlon,Vendeur-se / Hôte-sse (H/F) Cycle,Tu travailles main dans la main avec le Responsable de Rayon qui te manage et tu bénéficies d’un plan de formation pour t’accompagner dans la réussite de l…
+5,Vénissieux (69),IKEA,Vendeurs F/H - CDI - Temps plein,Tu abordes avec respect les visiteurs pour en savoir plus sur leurs besoins et les guider dans leur choix grâce à ta connaissance approfondie de nos produits et…
+6,Lyon (69),Gap,Vendeur H/F – CDD 16h – Lyon,"Vous êtes curieux et motivé ce qui vous permet d’en savoir toujours plus sur votre métier et sur la vie de votre magasin.
+Contrat CDD du 20/12/20 au 23/01/21."
+7,Lyon (69),Adventure Group,Vendeur en Boulangerie H/F,"Satisfaire le client au comptoir ou en salle en l’accueillant et en le servant avec le sourire,.
+Dynamisme, excellent relationnel, réactivité, esprit d’équipe…"
+8,Villeurbanne (69),Monoprix,Vendeur(se),"Une envie de partager sa bonne humeur avec son équipe;
+Garantir une expérience client optimale de l’accueil jusqu’à l’encaissement."
+9,Villeurbanne (69),Saint-Gobain,Vendeur Conseil (H/F) - Villeurbanne (69),"Un accès aux avantages du Groupe Saint-Gobain (Plan Epargne Groupe, accords d'intéressement et participation) ainsi qu'à des remises commerciales sur nos…"
+10,Lyon (69),ETAM,hôte(sse) de vente h/f,"Accueillir et conseiller la clientèle en garantissant l'image de la marque grâce à un service client de qualité, une expertise produits et des actions de…"
+11,Lyon (69),Christine Laure,Vendeur (H/F),Christine LAURE recrute pour sa boutique de LYON (69) un·e Conseiller·ère de vente en CDD à 35H hebdomadaires.
+12,Pierre-Bénite (69),Botanic,VENDEUR QUALIFIE H/F - ANIMALERIE,"Accueil, écoute et conseil des clients pour développer les ventes et les services du magasin.
+Prise en charge des services clients en magasin du type aide au…"
+13,Lyon (69),Claudie Pierlot,Vendeur(se),Intégrez la Team Claudie et Vivez des challenges à la hauteur de votre talent ! En tant que Vendeur vous serez un véritable ambassadeur et vous incarnerez…
+14,Tassin-la-Demi-Lune (69),Leroy Merlin,Vendeur magasin menuiserie Lyon (Tassin),"Vous mettez les produits en valeur à travers des présentations et des mises en situations,.
+En apprenant à connaître vos clients, leurs enjeux, et leurs…"
