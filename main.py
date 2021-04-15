@@ -60,7 +60,12 @@ def extract_data_from_jobs_pages(job, div):
 
 def extract_data_from_job_page(job, div):
     for jobType in div.findAll(name='span', attrs={'class': 'jobsearch-JobMetadataHeader-item icl-u-xs-mt--xs'}):
-        job['jobType'] = jobType.text.strip()
+        jobTypes = jobType.text.strip().strip('-  ').split(',')
+        jobTypesSplit = []
+        for type in jobTypes:
+            jobTypesSplit.append(type.lstrip())
+    for jobSalary in div.findAll(name='span', attrs={'class': 'icl-u-xs-mr--xs'}):
+        job['jobSalary'] = jobSalary.text.strip()
     return job
 
 
@@ -111,8 +116,8 @@ if __name__ == '__main__':
     URLJob = 'http://api.scraperapi.com?api_key=fb6c7af53a0027b0d89358290018eed7&url=https://www.indeed.fr/voir-emploi?jk='
     # cities = ['Paris','Lyon','Bordeaux','Asnières sur Seine']
     # jobs_list = ['Data Analyst','Data Scientist','Data engineer','ML engineer']
-    cities = ['Saint-Paul-Trois-Châteaux (26)']
-    jobs_list = ['agent de nettoyage chimique fabrication industriel chef d Equipe']
+    cities = ['La Défense']
+    jobs_list = ['Junior Business Information Analyst']
     number_pages_to_scrape = 1
 
     for city in cities:
@@ -120,7 +125,7 @@ if __name__ == '__main__':
         for job in jobs_list:
             job = '+'.join(job.split(' '))
             for i in range(0, number_pages_to_scrape): #tester si il y a assez d'offres
-                soup = make_soup(URL + job + "&l=" + city + "&start=" + str(i * 10))
+                soup = make_soup(URL + job + "&l=" + city + "&start=" + str(i * 10) + "&radius=0")
                 data = get_jobs_pages_from_page_soup(jobs=[], soup=soup)
 
                 with open('data.json', 'w') as fp:
