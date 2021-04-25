@@ -1,20 +1,69 @@
 [
   {
-    "cityName": "Saint-Paul-Trois-Châteaux (26)",
-    "companyName": "Lactalis",
-    "jobDataFromLink": "{\"jobType\": \"CDI\"}",
-    "jobLink": "71ddd02e5e59d7a5",
-    "jobName": "Agent Nettoyage Industriel / Hygiéniste(H/F) Saint-Paul-Trois-Chateaux",
-    "jobShortDescription": "Vous êtes idéalement doté d’une première expérience en nettoyage industriel.\nRespectez le plan journalier de nettoyage et veillez à la bonne disponibilité de…",
-    "rating": "3,5"
+    "cityName": "La Défense (92)",
+    "companyName": "EY",
+    "jobLink": "c7514feb0c636a76",
+    "jobName": "Data Analyst H/F",
+    "jobShortDescription": "Ses domaines d’interventions sont très larges (marketing, industrie, secteur public, énergie, retail et consumer product, etc.).",
+    "rating": "4,0"
   },
   {
-    "cityName": "Saint-Paul-Trois-Châteaux (26)",
-    "companyName": "Lactalis",
-    "jobDataFromLink": "{\"jobType\": \"CDI\"}",
-    "jobLink": "04e0f766c4e5c67c",
-    "jobName": "Chef d'Equipe Nettoyage Industriel (H/F) Saint-Paul-Trois-Chateaux",
-    "jobShortDescription": "Sur ce site d'environ 40 personnes, vous êtes rattaché au Responsable Production/Maintenance et intégrez une équipe de 3 personnes (vous, en tant que chef d…",
-    "rating": "3,5"
+    "cityName": "La Défense (92)",
+    "companyName": "Société Générale",
+    "jobDataFromLink": "{}",
+    "jobLink": "0ae6681e55b75411",
+    "jobName": "Data analyst - études rentabilité-(H/F)",
+    "jobShortDescription": "En tant qu'Alternant(e) data analyst, vous intégrez l'équipe études rentabilité BDDF (Banque de détail France).\nPlus qu’un poste, un tremplin.",
+    "rating": "3,9"
+  },
+  {
+    "cityName": "La Défense (92)",
+    "companyName": "British American Tobacco",
+    "jobDataFromLink": "{}",
+    "jobLink": "38edaeccfbe2f5eb",
+    "jobName": "Digital data analyst intern",
+    "jobShortDescription": "You will be the owner of digital data account (GA360, Salesforce, Power BI, Tableau, etc.) to optimize the data visualization and data usability.",
+    "rating": "4,4"
+  },
+  {
+    "cityName": "La Défense (92)",
+    "companyName": "Les Nouveaux Héritiers",
+    "jobDataFromLink": "{\"jobSalary\": \"45\\u00a0000 \\u20ac - 50\\u00a0000 \\u20ac par an\"}",
+    "jobLink": "39f704d1409e108f",
+    "jobName": "Data Analyst H/F",
+    "jobShortDescription": "Développer des bases de données intelligentes permettant de référencer de grandes quantités de données.\nEchanger régulièrement avec l'équipe centrale basée au…"
+  },
+  {
+    "cityName": "La Défense (92)",
+    "companyName": "IFEO CONSULTING",
+    "jobDataFromLink": "{}",
+    "jobLink": "97a80394a6c13b5a",
+    "jobName": "Consultant bi/data analyst (f/h)",
+    "jobShortDescription": "Si l’adéquation entre le besoin et votre intérêt pour le poste est confirmé, nous présentons votre candidature à notre client.\nCe qu'on attend de vous."
+  },
+  {
+    "cityName": "La Défense (92)",
+    "companyName": "Société Générale",
+    "jobDataFromLink": "{}",
+    "jobLink": "70ee50edea9b747b",
+    "jobName": "Analyste Market Data-(H/F)",
+    "jobShortDescription": "Rejoignez la communauté DATA au sein du groupe Société Générale pour couvrir à la fois les enjeux business (Marketing, Risques, Finance, Opérations, Juridique)…",
+    "rating": "3,9"
+  },
+  {
+    "cityName": "La Défense (92)",
+    "companyName": "Orange",
+    "jobLink": "740c0fee3c900f8d",
+    "jobName": "Data Analyste Senior F/H",
+    "jobShortDescription": "Vous avez de l'expérience en data mining / data analyse /data science / projets big data / projets en data science.",
+    "rating": "4,1"
+  },
+  {
+    "cityName": "La Défense (92)",
+    "companyName": "Orange",
+    "jobLink": "2ab54d1e3948c3cf",
+    "jobName": "Data Analyste dans le domaine des transports et de la logistique F/H",
+    "jobShortDescription": "L'analyse des besoins des clients sur les offres Flux Vision dans les domaines du transport et de l'aménagement du territoire.",
+    "rating": "4,1"
   }
 ]
