@@ -1,3 +1,5 @@
+import re
+
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -44,18 +46,37 @@ def extract_data_from_jobs_pages(job, div):
 
 
 def extract_data_from_job_page(job, div):
-    job['jobType'] = div.find(name='span',attrs={'class':'jobsearch-JobMetadataHeader-item icl-u-xs-mt--xs'}).text.strip()
+    try:
+        job['jobType'] = div.find(name='span',attrs={'class':'jobsearch-JobMetadataHeader-item icl-u-xs-mt--xs'}).text.strip()
+    except:
+        job['jobType'] = "UNKNOW"
     try:
         job['jobSalary'] = div.find(name='span', attrs={'class': 'icl-u-xs-mr--xs'}).text.strip()
     except:
-        pass
+        job['jobSalary']= "UNKNOW"
+
     return job
 
+
+def extract_niv_etude(job, soup):
+    for p in soup.find_all(name='p'):
+        try:
+            if(re.findall('Bac.*[^</p>]',p.text)):
+                for level in re.findall('Bac.*[^</p>]',p.text):
+                    job['Level_study'] = level
+        except:
+            pass
+    return job
 
 def get_job_data_from_job_soup(soup):
     job_data = dict()
     job = extract_data_from_job_page(job_data,
                                      soup.find(name='div', attrs={'class': 'jobsearch-JobMetadataHeader-item'}))
+    try:
+        job = extract_niv_etude(job, soup.find('div', attrs={'class' : 'jobsearch-jobDescriptionText'}))
+    except:
+        pass
+
     return json.dumps(job)
 
 
