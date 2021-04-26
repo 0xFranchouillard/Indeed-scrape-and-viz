@@ -15,15 +15,12 @@ def home():
     form = ResearchForm()
 
     if form.validate_on_submit():
-        # print("jobName : "+form.jobName.data)
-        # print("city : "+form.city.data)
-        # print("companyName : "+form.companyName.data)
-        # print(export_to_mongo_research(form.jobName.data, form.city.data, form.companyName.data))
         """scrap_thread = threading.Thread(target=form_to_scrap_to_mongo,args=(form.jobName.data, form.city.data, form.companyName.data))
         scrap_thread.start()"""
         posts = export_to_mongo_research(form.jobName.data, form.city.data, form.companyName.data)
         if(len(posts) < 5):
             form_to_scrap_to_mongo(form.jobName.data, form.city.data, form.companyName.data)
+        posts = export_to_mongo_research(form.jobName.data, form.city.data, form.companyName.data)
         return render_template("ScrapeIndeed.html", posts=posts, len=len(posts), form=form)
 
     return render_template("ScrapeIndeed.html", posts=posts, len=len(posts), form=form)

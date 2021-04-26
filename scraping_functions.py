@@ -13,7 +13,6 @@ def make_soup(URL):
     try:
         response = requests.get(URL, headers=headers)
         soup = BeautifulSoup(response.text, 'html.parser')
-        print(soup)
     except:
         print("Erreur à la connexion...\nErreur HTTP :", response.status_code)
         if ((requests.get('https://google.fr')).status_code != 200):
@@ -45,9 +44,11 @@ def extract_data_from_jobs_pages(job, div):
 
 
 def extract_data_from_job_page(job, div):
-    job['jobType'] = div.find(name='span',
-                              attrs={'class': 'jobsearch-JobMetadataHeader-item icl-u-xs-mt--xs'}).text.strip()
-    job['jobSalary'] = div.find(name='span', attrs={'class': 'icl-u-xs-mr--xs'}).text.strip()
+    job['jobType'] = div.find(name='span',attrs={'class':'jobsearch-JobMetadataHeader-item icl-u-xs-mt--xs'}).text.strip()
+    try:
+        job['jobSalary'] = div.find(name='span', attrs={'class': 'icl-u-xs-mr--xs'}).text.strip()
+    except:
+        pass
     return job
 
 

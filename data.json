@@ -1,10 +1,11 @@
 [
   {
-    "cityName": "Paris (75)",
-    "companyName": "Ralph Lauren",
-    "jobLink": "fc97277033c54822",
-    "jobName": "Data Intelligence Analyst",
-    "jobShortDescription": "Key member of the media team translating data to insights and optimize our communications strategies.\nWork with digital intelligence tool to make data-driven…",
-    "rating": "3,9"
+    "cityName": "Nice (06)",
+    "companyName": "JD Sports",
+    "jobDataFromLink": "{\"jobType\": \"Temps plein, CDI\", \"jobSalary\": \"NULL\"}",
+    "jobLink": "a29ee4bee94301d5",
+    "jobName": "Hôte de caisse CDI 35 H - H/F",
+    "jobShortDescription": "Tu proposes à chaque client une vente complémentaire (accessoires, nettoyants, cartes cadeaux).\nTu procèdes à l'encaissement, le désantivolage et l'ensachage…",
+    "rating": "3,1"
   }
 ]
