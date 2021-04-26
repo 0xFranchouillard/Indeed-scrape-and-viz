@@ -7,7 +7,10 @@ def import_to_mongo(data):
     client = MongoClient(URLmongo)
     db = client.indeed_db
     collection = db.indeed_collection
-    db.indeed_collection.create_index('jobLink', unique=True)
+    try:
+        db.indeed_collection.create_index('jobLink', unique=True)
+    except:
+        pass
 
     for i in data:
         try:
