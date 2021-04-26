@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="descrption" content="Projet Scraping & MongoDB | NoSQL">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/CSS_Luxery.css') }}">
+    <title>Indeed Scrape</title>
+</head>
+<body>
+    <header>
+        <h1>Page d'alimentation</h1>
+    </header>
+    <main>
+        <section class="body_section">
+            <form action="" method="POST">
+                {{ form.hidden_tag() }}
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            {% if form.jobName.errors %}
+                                {{ form.jobName(placeholder="jobName", class="is-invalid") }}
+                                {% for error in form.jobName.errors %}
+                                    <span>{{ error }}</span>
+                                {% endfor %}
+                            {% else %}
+                                {{ form.jobName(placeholder="jobName") }}
+                            {% endif %}
+                        </div>
+                        <div class="col">
+                            {% if form.city.errors %}
+                                {{ form.city(placeholder="city", class="is-invalid") }}
+                                {% for error in form.city.errors %}
+                                    <span>{{ error }}</span>
+                                {% endfor %}
+                            {% else %}
+                                {{ form.city(placeholder="city") }}
+                            {% endif %}
+                        </div>
+                        <div class="col">
+                            {% if form.companyName.errors %}
+                                {{ form.companyName(placeholder="companyName", class="is-invalid") }}
+                                {% for error in form.companyName.errors %}
+                                    <span>{{ error }}</span>
+                                {% endfor %}
+                            {% else %}
+                                {{ form.companyName(placeholder="companyName") }}
+                            {% endif %}
+                        </div>
+                        <div class="col">
+                            {{ form.submit() }}
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="container">
+                <div class="row">
+                    <h5 class="col">Nom Job</h5>
+                    <h5 class="col">Nom Entreprise</h5>
+                    <h5 class="col">Description</h5>
+                </div>
+                {% for i in range(0, len) %}
+                    <div class="row" style="padding: 2% 0% 2% 0%; box-sizing: border-box; border: solid 1px #DFDFDF; {% if i%2 == 1 %} {{'background-color: #DFDFDF;'}} {% endif %}">
+                        <div class="col">{{ posts[i].jobName }}</div>
+                        <div class="col">{{ posts[i].companyName }}</div>
+                        <div class="col">{{ posts[i].jobShortDescription }}</div>
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>Réalisé par Cyrille CHAMPION et Cédric GARVENES</span>
+    </footer>
+</body>
+</html>
