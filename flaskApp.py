@@ -12,6 +12,10 @@ def home():
     posts = export_to_mongo()
     form = ResearchForm()
     if form.validate_on_submit():
-        print(form.jobName.data)
+        # print("jobName : "+form.jobName.data)
+        # print("city : "+form.city.data)
+        # print("companyName : "+form.companyName.data)
+        # print(export_to_mongo_research(form.jobName.data, form.city.data, form.companyName.data))
+        posts = export_to_mongo_research(form.jobName.data, form.city.data, form.companyName.data)
         return render_template("ScrapeIndeed.html", posts=posts, len=len(posts), form=form)
     return render_template("ScrapeIndeed.html", posts=posts, len=len(posts), form=form)

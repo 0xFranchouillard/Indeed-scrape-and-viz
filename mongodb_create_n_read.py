@@ -25,3 +25,12 @@ def export_to_mongo():
 
     data = collection.find()
     return list(data)
+
+
+def export_to_mongo_research(jobName, city, companyName):
+    client = MongoClient(URLmongo)
+    db = client.indeed_db
+    collection = db.indeed_collection
+
+    data = collection.find({"jobName": {'$regex': jobName, '$options': 'si'}, "cityName": {'$regex': city, '$options': 'si'}, "companyName": {'$regex': companyName, '$options': 'si'}})
+    return list(data)
