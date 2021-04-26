@@ -7,7 +7,7 @@ if __name__ == '__main__':
     #cities = ['Paris','Lyon','Bordeaux','Asnières sur Seine']
     #jobs_list = ['Data Analyst','Data Scientist','Data engineer','ML engineer']
 
-    cities = ['La Défense']
+    """cities = ['La Défense']
     jobs_list = ['Data Analyst']
     number_pages_to_scrape = 1
 
@@ -22,5 +22,5 @@ if __name__ == '__main__':
                  with open('data.json', 'w') as fp:
                      json.dump(data, fp, sort_keys=True, indent=2, ensure_ascii=False)
 
-                 import_to_mongo(data)
+                 import_to_mongo(data)"""
     app.run(debug=True)

@@ -37,3 +37,4 @@ def export_to_mongo_research(jobName, city, companyName):
 
     data = collection.find({"jobName": {'$regex': jobName, '$options': 'si'}, "cityName": {'$regex': city, '$options': 'si'}, "companyName": {'$regex': companyName, '$options': 'si'}})
     return list(data)
+
