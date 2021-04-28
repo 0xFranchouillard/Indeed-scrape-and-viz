@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="descrption" content="Projet Scraping & MongoDB | NoSQL">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/CSS_Luxery.css') }}">
+    <title>Indeed Scrape</title>
+</head>
+<body>
+    <header>
+        <h1>Graphiques</h1>
+    </header>
+    <main>
+        <section class="body_section">
+            <div class="container">
+                <div class="row">
+                    <img src="{{ url_for('static', filename='job_per_note.png') }}" width="100%">
+                </div>
+                <div class="row">
+                    <img src="{{ url_for('static', filename='top_five_company.png') }}" width="100%">
+                </div>
+                <div class="row">
+                    <img src="{{ url_for('static', filename='top_five_hiring_company.png') }}" width="100%">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="button" onclick="location.href='search'" value="Page de recherche">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>Réalisé par Cyrille CHAMPION et Cédric GARVENES</span>
+    </footer>
+</body>
+</html>

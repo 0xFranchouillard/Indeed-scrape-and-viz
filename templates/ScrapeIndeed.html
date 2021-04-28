@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Page d'alimentation</h1>
+        <h1>Page d'alimentation & recherche</h1>
     </header>
     <main>
         <section class="body_section">
@@ -66,6 +66,11 @@
                         <div class="col">{{ posts[i].jobShortDescription }}</div>
                     </div>
                 {% endfor %}
+                <div class="row">
+                    <div class="col">
+                        <input type="button" onclick="location.href='..'" value="Graphiques">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
