@@ -32,7 +32,7 @@ def extract_data_from_jobs_pages(job, div):
 
     job['jobShortDescription'] = div.find('div', attrs={'class': 'summary'}).text.strip()
 
-    job['rating'] = div.find(name='span', attrs={'class': 'ratingsContent'}).text.strip()
+    job['rating'] = float(div.find(name='span', attrs={'class': 'ratingsContent'}).text.strip().replace(',','.'))
 
     job['jobLink'] = div['data-jk']
 
